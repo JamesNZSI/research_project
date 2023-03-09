@@ -1,0 +1,2 @@
+# git add is already contained in -a parameter of commit
+git commit -a -m "commit" && git push
