@@ -1,5 +1,6 @@
 # research_project
 
-chapter 9 starts from 233
+** readings directory contains progresses for each paper/file
 
-239
+** weekly plan directory contains weekly plans and progresses before or after weekly meetings
+
