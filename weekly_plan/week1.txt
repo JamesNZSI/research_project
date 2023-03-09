@@ -1,0 +1,5 @@
+1. Go through chapter 9 of the book 'PROBABILISTIC ROBOTICS' in one day or so
+2. Further reading papers/watching classes about occupancy grid mapping in 2 days and more
+3. Review Python in 2 weeks
+4. Get to know simulation software: VDBFusion, CARLA
+5. Get to know database algorithms such as octree, BDB, etc.
