@@ -1,0 +1,125 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/main.c"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 22,
+                  "endLine": 53,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "showTime",
+                  "decoratedName": "showTime",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/main.c"
+                },
+                "region": {
+                  "startLine": 151,
+                  "startColumn": 22,
+                  "endLine": 151,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32822.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/main.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "27ee3bb57a3928e12c3398d3b6cd4dd4857a1d590f139c133980b9ad17bb24b6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/computerscience/uom/research_project/software/jarvis_octomap/sourcecode/lowram_octomap/lowram_octomap/dirent.h"
+          },
+          "hashes": {
+            "sha-256": "dcee71610c84fad55c632ec2e0b70da54590e648fd97228577647f65b3fc25f1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/computerscience/uom/research_project/software/jarvis_octomap/sourcecode/lowram_octomap/lowram_octomap/matrixandvector.h"
+          },
+          "hashes": {
+            "sha-256": "1a3441c1805bf7a9ce2834510065dde63af5cc2aa39ca24ccc0a2ad0268f37a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/computerscience/uom/research_project/software/jarvis_octomap/sourcecode/lowram_octomap/lowram_octomap/pointcloudio.h"
+          },
+          "hashes": {
+            "sha-256": "b2bfebaf11c8dbf2bc14bb161fe0c31674c2808bf21dab3cf79b25664907c139"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/computerscience/uom/research_project/software/jarvis_octomap/sourcecode/lowram_octomap/lowram_octomap/octree.h"
+          },
+          "hashes": {
+            "sha-256": "56dff67eb23dd2ae895fa7d5ae2a9a60776b7391658666c4918e6561f1c5de5f"
+          }
+        }
+      ]
+    }
+  ]
+}

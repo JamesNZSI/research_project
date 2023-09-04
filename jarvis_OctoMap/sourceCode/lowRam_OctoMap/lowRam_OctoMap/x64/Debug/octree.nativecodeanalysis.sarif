@@ -1,0 +1,698 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'newnode'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 65,
+                  "startColumn": 4,
+                  "endLine": 65,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ocbranch",
+                  "decoratedName": "ocbranch",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 19
+                          }
+                        },
+                        "message": {
+                          "text": "'newnode' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 22
+                          }
+                        },
+                        "message": {
+                          "text": "'newnode' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'node->children'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 70,
+                  "startColumn": 32,
+                  "endLine": 70,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "ocbranch",
+                  "decoratedName": "ocbranch",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 32
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 67,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 69,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "'<symbol>' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 23
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<8')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                          },
+                          "region": {
+                            "startLine": 70,
+                            "startColumn": 50
+                          }
+                        },
+                        "message": {
+                          "text": "'<symbol>' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 82,
+                  "endLine": 195,
+                  "endColumn": 94
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "out_branch_occupy_only",
+                  "decoratedName": "out_branch_occupy_only",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 82,
+                  "endLine": 195,
+                  "endColumn": 90
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "out_branch_occupy_only",
+                  "decoratedName": "out_branch_occupy_only",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 117,
+                  "endLine": 195,
+                  "endColumn": 133
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "out_branch_occupy_only",
+                  "decoratedName": "out_branch_occupy_only",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 117,
+                  "endLine": 195,
+                  "endColumn": 129
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "out_branch_occupy_only",
+                  "decoratedName": "out_branch_occupy_only",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 156,
+                  "endLine": 195,
+                  "endColumn": 172
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "out_branch_occupy_only",
+                  "decoratedName": "out_branch_occupy_only",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 195,
+                  "startColumn": 156,
+                  "endLine": 195,
+                  "endColumn": 168
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "out_branch_occupy_only",
+                  "decoratedName": "out_branch_occupy_only",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 231,
+                  "startColumn": 79,
+                  "endLine": 231,
+                  "endColumn": 91
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "out_branch_complete",
+                  "decoratedName": "out_branch_complete",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 231,
+                  "startColumn": 79,
+                  "endLine": 231,
+                  "endColumn": 87
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "out_branch_complete",
+                  "decoratedName": "out_branch_complete",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 231,
+                  "startColumn": 114,
+                  "endLine": 231,
+                  "endColumn": 130
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "out_branch_complete",
+                  "decoratedName": "out_branch_complete",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 231,
+                  "startColumn": 114,
+                  "endLine": 231,
+                  "endColumn": 126
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "out_branch_complete",
+                  "decoratedName": "out_branch_complete",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 231,
+                  "startColumn": 153,
+                  "endLine": 231,
+                  "endColumn": 169
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "out_branch_complete",
+                  "decoratedName": "out_branch_complete",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+                },
+                "region": {
+                  "startLine": 231,
+                  "startColumn": 153,
+                  "endLine": 231,
+                  "endColumn": 165
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "out_branch_complete",
+                  "decoratedName": "out_branch_complete",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32822.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/octree.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "a5805c29134a1ca465e69da9d5f8def277d762b6a7f6d7ea8f142a372639931a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/computerscience/uom/research_project/software/jarvis_octomap/sourcecode/lowram_octomap/lowram_octomap/octree.h"
+          },
+          "hashes": {
+            "sha-256": "56dff67eb23dd2ae895fa7d5ae2a9a60776b7391658666c4918e6561f1c5de5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/computerscience/uom/research_project/software/jarvis_octomap/sourcecode/lowram_octomap/lowram_octomap/matrixandvector.h"
+          },
+          "hashes": {
+            "sha-256": "1a3441c1805bf7a9ce2834510065dde63af5cc2aa39ca24ccc0a2ad0268f37a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/computerscience/uom/research_project/software/jarvis_octomap/sourcecode/lowram_octomap/lowram_octomap/sorting.h"
+          },
+          "hashes": {
+            "sha-256": "fb8e8d191d8875e83fd5051181443d7123546a4eb76815598e42e0dad90d1e3b"
+          }
+        }
+      ]
+    }
+  ]
+}

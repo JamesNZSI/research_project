@@ -1,0 +1,1 @@
+.\lowRam_OctoMap_acc_maps.exe "./pcd" log_occ 0.5 log_free -0.5 threshold_occ 1.0 threshold_free -1.0 update_policy 1 clamp_upper 0.5 clamp_lower -0.5 

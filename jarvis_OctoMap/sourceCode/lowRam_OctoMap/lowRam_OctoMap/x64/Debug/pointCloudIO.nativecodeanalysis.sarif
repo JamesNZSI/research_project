@@ -1,0 +1,177 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/pointCloudIO.c"
+                },
+                "region": {
+                  "startLine": 20,
+                  "startColumn": 2,
+                  "endLine": 20,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "in_pcdHeader",
+                  "decoratedName": "in_pcdHeader",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/pointCloudIO.c"
+                },
+                "region": {
+                  "startLine": 47,
+                  "startColumn": 3,
+                  "endLine": 47,
+                  "endColumn": 58
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "in_xyzONLY",
+                  "decoratedName": "in_xyzONLY",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/pointCloudIO.c"
+                },
+                "region": {
+                  "startLine": 58,
+                  "startColumn": 3,
+                  "endLine": 58,
+                  "endColumn": 72
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "in_xyzLabel",
+                  "decoratedName": "in_xyzLabel",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/pointCloudIO.c"
+                },
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 4,
+                  "endLine": 84,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "in_tran4",
+                  "decoratedName": "in_tran4",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'fscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/pointCloudIO.c"
+                },
+                "region": {
+                  "startLine": 85,
+                  "startColumn": 3,
+                  "endLine": 85,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "in_tran4",
+                  "decoratedName": "in_tran4",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32822.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/pointCloudIO.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "ad0f922eab6405f50b721f5b31352e3632dc27ab9f5ddefd48d3a25acba3fe11"
+          }
+        }
+      ]
+    }
+  ]
+}

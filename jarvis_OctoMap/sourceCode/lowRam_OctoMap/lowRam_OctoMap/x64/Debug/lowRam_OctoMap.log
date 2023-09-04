@@ -1,0 +1,7 @@
+﻿  octree.c
+F:\ComputerScience\uom\research_project\software\jarvis_OctoMap\sourceCode\lowRam_OctoMap\lowRam_OctoMap\octree.c(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+F:\ComputerScience\uom\research_project\software\jarvis_OctoMap\sourceCode\lowRam_OctoMap\lowRam_OctoMap\octree.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+F:\ComputerScience\uom\research_project\software\jarvis_OctoMap\sourceCode\lowRam_OctoMap\lowRam_OctoMap\matrixANDvector.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+F:\ComputerScience\uom\research_project\software\jarvis_OctoMap\sourceCode\lowRam_OctoMap\lowRam_OctoMap\sorting.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (936). Save the file in Unicode format to prevent data loss
+F:\ComputerScience\uom\research_project\software\jarvis_OctoMap\sourceCode\lowRam_OctoMap\lowRam_OctoMap\octree.c(44,80): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  lowRam_OctoMap.vcxproj -> F:\ComputerScience\uom\research_project\software\jarvis_OctoMap\sourceCode\lowRam_OctoMap\x64\Debug\lowRam_OctoMap.exe

@@ -1,0 +1,2509 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'dist'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                },
+                "region": {
+                  "startLine": 109,
+                  "startColumn": 4,
+                  "endLine": 109,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "planeLMedS",
+                  "decoratedName": "planeLMedS",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 31,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 32,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 38,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 36,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 49,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 50,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 51,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 63,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 79,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 80,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 98,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 99,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'dist' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 108,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<numPt')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 109,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'dist' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'dist'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                },
+                "region": {
+                  "startLine": 230,
+                  "startColumn": 4,
+                  "endLine": 230,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "planeLMedS_safe",
+                  "decoratedName": "planeLMedS_safe",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 140,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 140,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 140,
+                            "startColumn": 29
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 141,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 141,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 143,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 144,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 145,
+                            "startColumn": 8
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 141,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 141,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 147,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 148,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 149,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 150,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 151,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 151,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 153,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 154,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 155,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 151,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 151,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 157,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 158,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 158,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 159,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 159,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 160,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 159,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 159,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 160,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 159,
+                            "startColumn": 27
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 159,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 158,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 158,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 159,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 159,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 158,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 158,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 161,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 161,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 163,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 164,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 165,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 166,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 167,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 168,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 161,
+                            "startColumn": 30
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 161,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 170,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 171,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 172,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 173,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 183,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 184,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 185,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 187,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 187,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 186,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 188,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 199,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 200,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 201,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 202,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 203,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 204,
+                            "startColumn": 2
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 205,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 219,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 220,
+                            "startColumn": 6
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 222,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "'dist' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 223,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 223,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 225,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 226,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 227,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 223,
+                            "startColumn": 31
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 223,
+                            "startColumn": 21
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 229,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 229,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this loop, (assume 'i<numPt')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ]
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+                          },
+                          "region": {
+                            "startLine": 230,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "'dist' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.37.32822.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///F:/ComputerScience/uom/research_project/software/jarvis_OctoMap/sourceCode/lowRam_OctoMap/lowRam_OctoMap/robustRegression.c"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "0c63698be2822ced5c45bb327fb7445e60e1c6577198d6431ffffa630239757d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/computerscience/uom/research_project/software/jarvis_octomap/sourcecode/lowram_octomap/lowram_octomap/solveequationandeigen.h"
+          },
+          "hashes": {
+            "sha-256": "777a3e492dcf83d837cbdea7f659c100a6cd75d1f4938c64ec4645708dcdcb48"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/computerscience/uom/research_project/software/jarvis_octomap/sourcecode/lowram_octomap/lowram_octomap/matrixandvector.h"
+          },
+          "hashes": {
+            "sha-256": "1a3441c1805bf7a9ce2834510065dde63af5cc2aa39ca24ccc0a2ad0268f37a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///f:/computerscience/uom/research_project/software/jarvis_octomap/sourcecode/lowram_octomap/lowram_octomap/sorting.h"
+          },
+          "hashes": {
+            "sha-256": "fb8e8d191d8875e83fd5051181443d7123546a4eb76815598e42e0dad90d1e3b"
+          }
+        }
+      ]
+    }
+  ]
+}
